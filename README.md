@@ -65,15 +65,70 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+```
+module 4x1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or (y2,a,b);
+nor (y3,a);
+nand (y4,a,b);
+nor (y5,a,b);
+xor (y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
+ Developed by:KABIRA A RegisterNumber:212224040146
  
 **Logic symbol & Truthtable**
 
+
+AND gate
+
+
+![AND GATE](https://github.com/user-attachments/assets/f15e3adf-ee37-41c6-8584-dc6155103e27)
+
+OR gate
+
+
+![OR GATE](https://github.com/user-attachments/assets/c22e1246-56f2-4c4b-854f-6861578c464b)
+
+NOT gate
+
+
+![NOT GATE](https://github.com/user-attachments/assets/f494b9da-23da-413b-b053-4b5f8bdec172)
+
+NAND gate
+
+
+![NAND GATE](https://github.com/user-attachments/assets/61699040-8af1-40cd-8f94-ba848b62c4c1)
+
+NOR gate
+
+
+![NOR GATE](https://github.com/user-attachments/assets/eac61088-b260-48f8-beee-cf62fdd04183)
+
+XOR gate
+
+
+![XOR GATE](https://github.com/user-attachments/assets/782fc81e-8220-4dd8-b074-cd785702928b)
+
+XNOR gate
+
+
+![XNOR GATE](https://github.com/user-attachments/assets/e1551b71-f998-4b5b-9d39-c3a6e5002f6e)
+
+
 **RTL realization Output:** 
+
+![logic diagram exp 1](https://github.com/user-attachments/assets/93dd6de6-31e7-4041-9efe-48128a7829ea)
+
 
 **RTL**
 
-**Result:**
+![digi 1exp](https://github.com/user-attachments/assets/69debf43-0be7-404f-8377-241f8f2529fa)
 
+
+**Result:**
+Thus the baic digital ICs and the verification of truth tables for different logic gates were studied and successfully realized using Verilog.
 
